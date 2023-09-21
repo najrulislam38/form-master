@@ -1,29 +1,30 @@
 import "./App.css";
-import ReuseableForm from "./components/ReuseableForm/ReuseableForm";
+import GrandPa from "./components/GrandPa/GrandPa";
+// import ReuseableForm from "./components/ReuseableForm/ReuseableForm";
 // import HookForm from "./components/HookForm/HookForm";
 // import RefForm from "./components/RefForm/RefForm";
 // import StateFulForm from "./components/StateFulForm/StateFulForm";
 // import SimpleForm from "./components/SimpleForms.jsx/SimpleForm";
 
 function App() {
-  const handleSignUpSubmit = (data) => {
-    console.log("Sign Up:", data);
-    // console.log(e.target.name.value);
-  };
+  // const handleSignUpSubmit = (data) => {
+  //   console.log("Sign Up:", data);
+  //   // console.log(e.target.name.value);
+  // };
 
-  const handleUpdateProfile = (data) => {
-    console.log("Profile Update:", data);
-    // console.log(e.target.value);
-  };
+  // const handleUpdateProfile = (data) => {
+  //   console.log("Profile Update:", data);
+  //   // console.log(e.target.value);
+  // };
 
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1>Form Master</h1>
       {/* <SimpleForm></SimpleForm> */}
       {/* <StateFulForm></StateFulForm> */}
       {/* <RefForm></RefForm> */}
       {/* <HookForm></HookForm> */}
-      <ReuseableForm
+      {/* <ReuseableForm
         formTitle={"Sign Up"}
         submitButtonText={"Submit"}
         handleSubmit={handleSignUpSubmit}
@@ -42,7 +43,8 @@ function App() {
           <h2>Profile Update</h2>
           <p>Alway keep your profile updated.</p>
         </div>
-      </ReuseableForm>
+      </ReuseableForm> */}
+      <GrandPa></GrandPa>
     </>
   );
 }
